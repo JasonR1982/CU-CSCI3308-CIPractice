@@ -4,4 +4,6 @@ os: linux
 
 install: make dep
 
-script: make && make test
+sudo: required
+
+script: make clean test
