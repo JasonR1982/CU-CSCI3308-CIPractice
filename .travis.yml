@@ -2,5 +2,4 @@ language: c
 
 os: linux
 
-install: make dep
 
