@@ -170,13 +170,13 @@ START_TEST(test_2d_area_triangle)
     c.y = 0;
     ck_assert(coord_2d_area_triangle(&a, &b, &c) == 75.0);
    
-    a.x = 17;
-    a.y = 11;
-    b.x = 17;
-    b.y = 24;
-    c.x = 51;
-    c.y = 17;
-    ck_assert(coord_2d_area_triangle(&a, &b, &c) == 221.0);
+    a.x = 0;
+    a.y = 10;
+    b.x = 0;
+    b.y = 0;
+    c.x = 15;
+    c.y = 0;
+    ck_assert(coord_2d_area_triangle(&a, &b, &c) == 75.0);
 
 
 }
